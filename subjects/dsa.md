@@ -48,6 +48,8 @@ MIT 6.006 includes material beyond some undergraduate course outlines. Prioritis
 - [NPTEL DSA course on Class Central](https://www.classcentral.com/course/youtube-computer-sc-data-structures-and-algorithms-47663) — free video-course listing with the 36-lecture outline and YouTube provider details.
 
 ### YouTube playlists / videos
+- [Abdul Bari — Algorithms (direct YouTube playlist)](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O). Use for algorithm analysis, design and problem-solving; it is a third-party teaching series, not NSUT-specific.
+- [MyCodeSchool — Data Structures (direct YouTube playlist)](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P). Use for core structures and implementation concepts; translate examples to the language and notation used by your faculty.
 - [Search YouTube for the NPTEL IIT Delhi DSA playlist](https://www.youtube.com/results?search_query=NPTEL+Data+Structures+and+Algorithms+IIT+Delhi+Naveen+Garg+playlist&sp=EgIQAw%3D%3D). This opens YouTube's playlist-filtered results; choose the NPTEL / nptelhrd series, not an unrelated interview-prep playlist.
 - [Bro Code — Data Structures and Algorithms Full Course](https://www.youtube.com/watch?v=CBYHwZcbD-s) — one long video, not a playlist; useful for a quick visual review of stacks, queues, linked lists, Big-O, searching, sorting, hashing, graphs and trees. It uses Java, so focus on concepts and translate pseudocode to the language used in class.
 - [Dinesh Varyani — visualised DSA full-course video](https://www.youtube.com/watch?v=6iCHf7OZn6c) — a supplementary Java-based visual explanation; use the linked course playlist in the video description for topic-wise follow-up.
