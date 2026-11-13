@@ -19,6 +19,7 @@ A single place for revision planning, syllabus cross-checks, practice resources 
 - [Chemical Engineering Principles](subjects/chemical-engineering-principles.md)
 - [Microbiology](subjects/microbiology.md)
 - [Cell Biology](subjects/cell-biology.md)
+- [Curated YouTube playlists and free resources](docs/video-playlists.md)
 
 ## Accuracy notes
 
