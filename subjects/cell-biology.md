@@ -42,3 +42,24 @@
 - Check current course availability through [NPTEL](https://nptel.ac.in/courses).
 - [OpenStax Biology 2e — The Cell Cycle](https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle).
 - Archived suggested texts include *Lodish Molecular Cell Biology* and *Alberts Essential Cell Biology*. Use the prescribed edition or authorised library access.
+
+## Expanded free resources and YouTube
+
+### Primary structured courses
+- [NPTEL: Cell Biology — IIT Guwahati](https://nptel.ac.in/courses/102103012), Dr. Sanjukta Patra. This course covers organelles, membrane structure and transport, cytoskeleton, cell cycle, mitosis/meiosis, signalling and cell culture.
+- [NPTEL: Molecular Cell Biology — IIT Madras](https://nptel.ac.in/courses/102106025), Prof. Devarajan Karunagaran. This is more advanced and includes GPCR/RTK and other signalling pathways, apoptosis, cancer biology and cell biology of infection. Select only relevant lectures; it is not necessary to complete the full postgraduate-level course.
+
+### YouTube playlists and lectures
+- [Search YouTube for the NPTEL Cell Biology IIT Guwahati playlist](https://www.youtube.com/results?search_query=NPTEL+Cell+Biology+IIT+Guwahati+Sanjukta+Patra+playlist&sp=EgIQAw%3D%3D). This opens playlist-filtered results; prioritise the NPTEL course series if listed.
+- [Ninja Nerd: Cell Structure and Function](https://www.youtube.com/watch?v=t5DvF5OVr1Y) — a detailed ~55-minute lecture covering organelles, membranes and cytoskeleton.
+- [Ninja Nerd: Cell Cycle — Interphase and Mitosis](https://www.youtube.com/watch?v=LUDws4JrIiI) — a focused lecture on phases, mitotic stages and regulation.
+- [Ninja Nerd Cell Biology topic index](https://www.ninjanerd.org/topic/cell-biology) — organised topic lessons on cell cycle, organelles, transport, cytoskeleton, molecular biology and cellular disorders.
+
+### Free textbook and interactive resources
+- [OpenStax Biology 2e](https://openstax.org/books/biology-2e/pages/index) — use the chapters on eukaryotic cells, membranes, cell communication, cell division and cell cycle.
+- [OpenStax: The Cell Cycle](https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle) — concise explanation of interphase, mitosis, cytokinesis and G0.
+- [HHMI BioInteractive: Cell Division Is Essential to Life](https://media.hhmi.org/biointeractive/click/cellcycle/) — interactive on cell-cycle phases, checkpoints, regulators and links to cancer.
+- [HHMI BioInteractive](https://www.biointeractive.org/) — curated biology resources and interactives across cell biology, microbiology and biochemistry/molecular biology.
+
+### Watch/revise in this order
+Organelle structure/function → membrane transport → cytoskeleton → cell-cycle phases and checkpoints → mitosis/meiosis → GPCR and enzyme-linked signalling → intrinsic apoptosis. Practise drawing each mechanism from memory after watching.
