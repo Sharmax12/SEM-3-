@@ -46,3 +46,21 @@ For a method question, write **purpose → principle → steps/workflow → cont
 - NPTEL course listed in the study guide: **Microbiology, IIT Guwahati** (Dr. Gurvinder Kaur Saini). Check current availability through [NPTEL](https://nptel.ac.in/courses).
 - [OpenStax Microbiology](https://openstax.org/books/microbiology/pages/index) — free online textbook.
 - [NSUT library e-resources](https://idp.nsut.ac.in/) (university authentication may be required).
+
+## Expanded free resources and YouTube
+
+### Primary structured course
+- [NPTEL: Microbiology — IIT Guwahati](https://nptel.ac.in/courses/102103015), Dr. Gurvinder Kaur Saini. This is a particularly close match for the subject map: history, cell structure, microscopy/staining, microbial nutrition and pure-culture isolation, growth/control, metabolism, genetics, diversity, viruses and microbial disease. Use its study questions as recall prompts.
+
+### YouTube playlists and topic videos
+- [Search YouTube for the NPTEL IIT Guwahati Microbiology playlist](https://www.youtube.com/results?search_query=NPTEL+Microbiology+IIT+Guwahati+Gurvinder+Kaur+Saini+playlist&sp=EgIQAw%3D%3D). The link filters YouTube results to playlists; prefer the NPTEL/nptelhrd course series when available.
+- [Microbiology — 35-video topic collection](https://tutorialtube.online/playlist/microbiology-3/) — a third-party index of YouTube videos on microbial history, cell structure, culture media, bacterial nutrition, growth factors and growth curves. It is not an NSUT or NPTEL playlist; use only videos matching your units.
+- [Pearson: Microbial growth, nutrition and bacterial cell structure videos](https://www.pearson.com/channels/microbiology/study-guides/microbial-growth-nutrition-and-bacterial-cell-structure/video-lessons) — short, topic-specific clips on bacterial structure, culture media, pure cultures, growth curves and growth control.
+
+### Free textbook and lab-support material
+- [OpenStax Microbiology](https://openstax.org/books/microbiology/pages/index) — free textbook; use the chapters on microbial structure, growth, control, metabolism and diversity.
+- [NPTEL course outline / syllabus PDF](https://archive.nptel.ac.in/content/syllabus_pdf/102103015.pdf) — useful as a checklist of lecture areas and study questions.
+- [NSUT library e-resources](https://idp.nsut.ac.in/) — check authorised access to additional textbooks and journals.
+
+### Watch/revise in this order
+History and germ theory → prokaryotic structure → microscopy and staining → culture media and pure-culture isolation → growth curve and environmental factors → sterilisation/control methods → microbial diversity → metabolism. For practical-method answers, write purpose, principle, steps, controls/confirmation and expected result.
