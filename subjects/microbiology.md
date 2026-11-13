@@ -17,7 +17,7 @@
 
 ## Publicly identified NSUT practice paper
 
-The study guide identifies one publicly visible NSUT Biotechnology Semester III Microbiology mid-semester paper dated **September 2023**, course code BTBTC08, 15 marks and 1.5 hours. The Scribd filename includes “2024”, but the paper itself is dated September 2023. This is a mid-semester paper, not an ESE paper.
+The study guide identifies one publicly visible NSUT Biotechnology Semester III Microbiology mid-semester paper dated **September 2023**, course code BTBTC08, 15 marks and 1.5 hours. The Scribd filename includes “2024”, but the paper itself is dated September 2023. This is a mid-semester paper, not an ESE paper. [Public Scribd listing](https://www.scribd.com/document/996944288/BTBTC08-2024) — verify the document date on the page before treating it as the September 2023 paper.
 
 ## Questions visible in that sample paper
 
