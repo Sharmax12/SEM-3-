@@ -10,7 +10,7 @@ This guide is designed around the five NSUT Semester III papers. **Use current I
 4. Solve a class question or syllabus-matched PYQ.
 5. Record the exact mistake and revisit it later.
 
-Do not attempt to complete every long playlist before the exams. The direct playlist links below are marked as such. Where a direct playlist URL could not be reliably established, the link opens YouTube's playlist-filtered search results or the official course page instead; it is not represented as a verified playlist URL.
+Do not attempt to complete every long playlist before the exams. Direct YouTube playlist URLs are labelled as direct playlists. Some supplementary links point to third-party indexes that group videos from their original creators into subject collections; these are labelled as video collections, not official NSUT/NPTEL playlists. Where an official NPTEL YouTube playlist could not be reliably identified, the link opens YouTube's playlist-filtered search results or the structured NPTEL course page.
 
 ---
 
