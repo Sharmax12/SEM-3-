@@ -41,6 +41,8 @@ Bioenergetics and ΔG → glycolysis and regulation → gluconeogenesis/glycogen
 - [Class Central: NPTEL DSA course](https://www.classcentral.com/course/youtube-computer-sc-data-structures-and-algorithms-47663) — free video-course listing with the complete lecture outline and YouTube as provider.
 
 ### YouTube playlist / video options
+- [Abdul Bari — Algorithms (direct YouTube playlist)](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) — algorithms, design and analysis.
+- [MyCodeSchool — Data Structures (direct YouTube playlist)](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) — core data structures and implementation concepts.
 - [NPTEL IIT Delhi DSA — YouTube playlist search](https://www.youtube.com/results?search_query=NPTEL+Data+Structures+and+Algorithms+IIT+Delhi+Naveen+Garg+playlist&sp=EgIQAw%3D%3D). Prefer the nptelhrd / NPTEL series when choosing among results.
 - [Bro Code: Data Structures and Algorithms Full Course](https://www.youtube.com/watch?v=CBYHwZcbD-s) — one long video (not a playlist), useful as a quick visual recap; it uses Java.
 - [Dinesh Varyani: DSA with visualisations](https://www.youtube.com/watch?v=6iCHf7OZn6c) — supplementary visual explanation with a linked topic playlist in the video description; Java is used for demonstrations.
@@ -86,7 +88,8 @@ Units and basis → simple material balances → recycle/bypass/purge → reacti
 
 ### YouTube playlist / video options
 - [NPTEL IIT Guwahati Microbiology — YouTube playlist search](https://www.youtube.com/results?search_query=NPTEL+Microbiology+IIT+Guwahati+Gurvinder+Kaur+Saini+playlist&sp=EgIQAw%3D%3D). Prefer the official NPTEL/nptelhrd series when available.
-- [Microbiology — 35-video topic collection](https://tutorialtube.online/playlist/microbiology-3/) — third-party index of YouTube lectures on history, cell structure, culture media, nutrition, growth factors and growth curves. It is not an NSUT/NPTEL playlist.
+- [General Microbiology Lectures — Dr. Julie Wells (15-video lecture series)](https://tutorialtube.online/topic/biology-microbiology/) — third-party index of an Orange Coast College lecture series (~32.5 hours) with introductory microbiology, chemistry/macromolecules and prokaryotic/eukaryotic cells.
+- [Microbiology — KCL Tutorials (35-video collection)](https://tutorialtube.online/playlist/microbiology-3/) — third-party index covering history, classification, bacterial structure and related B.Pharm topics. Use selectively.
 - [Pearson: Microbial growth, nutrition and bacterial cell structure](https://www.pearson.com/channels/microbiology/study-guides/microbial-growth-nutrition-and-bacterial-cell-structure/video-lessons) — short topic-specific clips.
 - [Pearson: Culture media and microbial growth](https://www.pearson.com/channels/microbiology/study-guides/culture-media-and-quantification-of-microbial-growth/video-lessons) — selected clips on growth measurement and cultivation.
 
@@ -109,7 +112,9 @@ History/germ theory → prokaryotic structure → microscopy/staining → media 
 - [NPTEL IIT Guwahati Cell Biology — YouTube playlist search](https://www.youtube.com/results?search_query=NPTEL+Cell+Biology+IIT+Guwahati+Sanjukta+Patra+playlist&sp=EgIQAw%3D%3D). Prefer the NPTEL series when available.
 - [Ninja Nerd: Cell Structure and Function](https://www.youtube.com/watch?v=t5DvF5OVr1Y) — detailed lecture on organelles, membranes and cytoskeleton.
 - [Ninja Nerd: Cell Cycle — Interphase and Mitosis](https://www.youtube.com/watch?v=LUDws4JrIiI) — focused lecture on cell-cycle phases and mitosis.
+- [Ninja Nerd Cell Biology — 18-video collection](https://tutorialtube.online/topic/biology-cell-biology/) — third-party index of a ~13.5-hour set covering cell cycle, regulation, membrane transport and organelle-linked disorders.
 - [Ninja Nerd Cell Biology topic index](https://www.ninjanerd.org/topic/cell-biology) — grouped topic lessons on cell cycle, organelles, transport, cytoskeleton and cellular disorders.
+- [Molecular & Cellular Biology — UNF Spring 2021 (50-video lecture collection)](https://tutorialtube.online/topic/biology-cell-biology/) — optional, university-style reference (~40.9 hours).
 
 ### Free textbook and interactive resources
 - [OpenStax Biology 2e](https://openstax.org/books/biology-2e/pages/index) — chapters on eukaryotic cells, membranes, cell communication and division.
