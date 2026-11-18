@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map Navigator</title>
+<link rel="stylesheet" href="/static/leaflet/leaflet.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Segoe UI, Arial, sans-serif; display: flex; height: 100vh; }
+  #panel { width: 320px; padding: 20px; background: #f7f8fa; border-right: 1px solid #ddd; overflow-y: auto; }
+  #map { flex: 1; background: #eaf0f3; }
+  h1 { font-size: 20px; margin: 0 0 16px; }
+  label { display: block; font-size: 13px; margin: 12px 0 4px; color: #444; }
+  select, button { width: 100%; padding: 10px; font-size: 14px; border-radius: 6px; border: 1px solid #bbb; }
+  button { background: #1a73e8; color: #fff; border: none; margin-top: 16px; cursor: pointer; }
+  button:hover { background: #1558b0; }
+  #result { margin-top: 18px; font-size: 14px; line-height: 1.6; }
+  .box { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px; }
+  .err { color: #c62828; }
+  ol { padding-left: 20px; margin: 6px 0 0; }
+  @media (max-width: 700px) { body { flex-direction: column; } #panel { width: 100%; max-height: 55vh; } #map { min-height: 40vh; } }
+</style>
+</head>
+<body>
+<div id="panel">
+  <h1>🗺️ Map Navigator</h1>
+  <label for="source">Source</label>
+  <select id="source"></select>
+  <label for="destination">Destination</label>
+  <select id="destination"></select>
+  <label for="algo">Algorithm</label>
+  <select id="algo">
+    <option value="dijkstra">Dijkstra</option>
+    <option value="astar">A* (A-star)</option>
+  </select>
+  <button id="go">Find Shortest Route</button>
+  <div id="result" aria-live="polite"></div>
+</div>
+<div id="map"></div>
+
+<script src="/static/leaflet/leaflet.js"></script>
+<script src="/static/land.js"></script>
+<script>
+const map = L.map('map').setView([22.5, 79], 5);
+const landPane = map.createPane('land');
+landPane.style.zIndex = 150;
+landPane.style.pointerEvents = 'none';
+regionalLand.forEach(ring => L.polygon(ring, {
+  pane: 'land', color: '#a7bbc1', weight: 1, fillColor: '#f1efe7', fillOpacity: 1,
+  interactive: false, attribution: 'Natural Earth'
+}).addTo(map));
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+let routeLayer = null;
+
+async function init() {
+  const cities = await (await fetch('/api/cities')).json();
+  const roads = await (await fetch('/api/roads')).json();
+
+  const src = document.getElementById('source');
+  const dst = document.getElementById('destination');
+  cities.forEach(c => {
+    src.add(new Option(c.name, c.name));
+    dst.add(new Option(c.name, c.name));
+    L.circleMarker([c.lat, c.lng], { radius: 6, color: '#1a73e8', fillOpacity: 0.9 })
+      .addTo(map).bindTooltip(c.name);
+  });
+  dst.selectedIndex = 1;
+
+    // saari sadkein halki grey line me
+    roads.forEach(r => L.polyline([r.from_coords, r.to_coords], { color: '#aaa', weight: 2, opacity: 0.7 }).addTo(map));
+}
+
+document.getElementById('go').onclick = async () => {
+  const s = document.getElementById('source').value;
+  const d = document.getElementById('destination').value;
+  const a = document.getElementById('algo').value;
+  const out = document.getElementById('result');
+  out.innerHTML = 'Loading...';
+
+    const res = await fetch(`/api/route?source=${encodeURIComponent(s)}&destination=${encodeURIComponent(d)}&algo=${a}`);
+    const data = await res.json();
+
+    if (routeLayer) map.removeLayer(routeLayer);
+    if (!res.ok) { out.innerHTML = `<div class="box err">${data.error}</div>`; return; }
+
+    routeLayer = L.polyline(data.coords, { color: '#e53935', weight: 5 }).addTo(map);
+    map.fitBounds(routeLayer.getBounds(), { padding: [40, 40] });
+
+  out.innerHTML = `
+    <div class="box">
+      <b>Distance:</b> ${data.distance_km} km<br>
+      <b>Est. time:</b> ${data.estimated_time}<br>
+      <b>Algorithm:</b> ${data.algorithm}<br>
+      <b>Nodes visited:</b> ${data.nodes_visited}<br>
+      <b>Path:</b>
+      <ol>${data.path.map(p => `<li>${p}</li>`).join('')}</ol>
+    </div>`;
+};
+
+init();
+</script>
+</body>
+</html>
